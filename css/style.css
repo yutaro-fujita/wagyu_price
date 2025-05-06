@@ -57,3 +57,9 @@ footer {
   background-color: #343a40;
   text-align: center;
 }
+
+
+/*branch training*/
+.card{
+  border-radius: 0;
+}
