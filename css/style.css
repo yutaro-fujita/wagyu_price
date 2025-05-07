@@ -65,6 +65,40 @@ footer {
 }
 
 /*branch kadai*/
+/*問題1*/
 .submit-color{
   background-color: #17a2b8;
+}
+
+/*問題2*/
+#page-top {
+  display: none;
+}
+@media screen and (max-width: 575px){
+
+#page-top {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #FFA500;
+}
+
+#page-top a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#page-top a .fa-chevron-up{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 }
